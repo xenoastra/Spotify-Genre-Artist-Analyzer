@@ -1,12 +1,15 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import json
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
-auth_manager = SpotifyClientCredentials(client_id='...', client_secret='...')
-sp = spotipy.Spotify(auth_manager=auth_manager)
-
-
+auth_manager = SpotifyClientCredentials(
+    client_id=os.getenv("SPOTIFY_CLIENT_ID"),
+    client_secret=os.getenv("SPOTIFY_CLIENT_SECRET")
+)
 # playlist_link = "https://open.spotify.com/playlist/4OFACY9bSggVZBmLrmqhNc?si=355d5e4ad6b94249" 
 playlist_link = input("Enter the link of a public spotify playlist: ")
 playlist_URI = playlist_link.split("/")[-1].split("?")[0]
