@@ -1,15 +1,6 @@
 # Spotify-Genre-Artist-Analyzer
 Analyzes Spotify playlist data using Python and the Spotify API to identify music preference patterns and artist/genre trends.
 
-# Features
-Spotify API integration
-Artist distribution analysis
-Genre distribution analysis
-Weighted artist percentages for collaborations
-Weighted genre percentages for multi-genre artists
-Automatic playlist breakdown reporting
-Pie chart visualizations using Matplotlib
-
 ## Demo
 The Playlist I will use for this Demo : [https://open.spotify.com/playlist/4OFACY9bSggVZBmLrmqhNc?si=355d5e4ad6b94249](https://open.spotify.com/playlist/4np0XQMgPabO0bObdxsyWG?si=21b7a686af904ca2)
 
@@ -29,6 +20,17 @@ There is also a Pie Chart with The Artist Breakdown attached
 
 <img width="570" height="437" alt="image" src="https://github.com/user-attachments/assets/e227c26f-e889-438f-9e9b-84103a1bc28e" />
 
+# Features
+Spotify API integration
+Artist distribution analysis
+Genre distribution analysis
+Weighted artist percentages for collaborations
+Weighted genre percentages for multi-genre artists
+Automatic playlist breakdown reporting
+Pie chart visualizations using Matplotlib
+
+## Tech Stack
+Python and spotipy API
 
 ## Setup
 
@@ -48,3 +50,11 @@ Install dependencies:
 ```bash
 pip install python-dotenv
 ```
+
+## Future Improvements and Features
+- Playlist Analysis: Add a breakdown of listening habits by playlist, including the number of artists featured in each playlist.
+- Artist Distribution: Calculate the number of unique artists listened to and visualize artist representation as percentages.
+- Improved Error Handling: Add error handling for private or inaccessible Spotify data.
+- Music Taste Personality: Generate a descriptive summary of listening preferences based on genre distribution (e.g., "Your music taste is emo").
+= Genre Categorization: Group specific genres into broader categories (e.g., Rock, Metal, Pop, Rap) to make genre distribution charts easier to interpret.
+
