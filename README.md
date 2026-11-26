@@ -20,7 +20,7 @@ There is also a Pie Chart with The Artist Breakdown attached
 
 <img width="570" height="437" alt="image" src="https://github.com/user-attachments/assets/e227c26f-e889-438f-9e9b-84103a1bc28e" />
 
-# Features
+## Features
 Spotify API integration
 Artist distribution analysis
 Genre distribution analysis
