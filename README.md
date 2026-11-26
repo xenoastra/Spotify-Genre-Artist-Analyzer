@@ -30,7 +30,10 @@ Automatic playlist breakdown reporting
 Pie chart visualizations using Matplotlib
 
 ## Tech Stack
-Python and spotipy API
+- Python
+- Spotipy
+- Pandas
+- Matplotlib
 
 ## Setup
 
